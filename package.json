@@ -1,0 +1,28 @@
+{
+  "name": "cipherclone_backend",
+  "version": "1.0.0",
+  "description": "Backend for cipher school clone assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hb195/cipherclone_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hb195/cipherclone_backend/issues"
+  },
+  "homepage": "https://github.com/hb195/cipherclone_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
